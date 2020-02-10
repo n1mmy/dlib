@@ -25,7 +25,7 @@ namespace dlib
 
     public:
 
-        explicit correlation_tracker (unsigned long filter_size = 6, 
+        explicit correlation_tracker (unsigned long filter_size = 4, 
             unsigned long num_scale_levels = 5, 
             unsigned long scale_window_size = 23,
             double regularizer_space = 0.001,
